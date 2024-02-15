@@ -14,7 +14,7 @@ from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 from langchain_google_genai import ChatGoogleGenerativeAI,GoogleGenerativeAIEmbeddings
 warnings.filterwarnings("ignore")
-GOOGLE_API_KEY="AIzaSyB2poeL3WYF56p8i0Km96EWIT_6nvFiZ_U"
+GOOGLE_API_KEY="YOUR_API_KEY"
 def load_model():
   #Function to load Model
   model = ChatGoogleGenerativeAI(model="gemini-pro",google_api_key=GOOGLE_API_KEY,
