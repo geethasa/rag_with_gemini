@@ -43,3 +43,4 @@ def get_query():
   query = "describe about evaluation in RAG"
   output = qa_chain({"query": query})
   print(output["result"])
+  get_query()
